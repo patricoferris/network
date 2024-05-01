@@ -1,0 +1,12 @@
+(library
+ (name net_eio)
+ (public_name network.eio)
+ (implements network)
+ (libraries
+  network
+  eio.unix
+  (select
+   net_eio.ml
+   from
+   (eio_linux -> net_eio.linux.ml)
+   (eio_posix -> net_eio.posix.ml))))

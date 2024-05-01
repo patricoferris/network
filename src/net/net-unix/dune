@@ -1,0 +1,5 @@
+(library
+ (name net_unix)
+ (virtual_modules net_unix)
+ (public_name network.unix)
+ (libraries network unix))

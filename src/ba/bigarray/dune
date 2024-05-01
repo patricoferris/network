@@ -1,0 +1,4 @@
+(library
+ (name ba_bigarray)
+ (public_name ba.bigarray)
+ (implements ba))

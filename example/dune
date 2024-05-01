@@ -1,0 +1,14 @@
+(library
+ (name net_example)
+ (modules net_example)
+ (libraries network network.unix))
+
+(executables
+ (names listen)
+ (modules listen)
+ (libraries net_example eio_main network.unix.eio))
+
+(executables
+ (names connect)
+ (modules connect)
+ (libraries net_example network.unix.miou))

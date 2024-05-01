@@ -1,0 +1,6 @@
+(library
+ (name network)
+ (public_name network)
+ (virtual_modules net)
+ (wrapped false)
+ (libraries ipaddr picos.structured))

@@ -1,0 +1,5 @@
+(library
+ (name net_unix_miou)
+ (public_name network.unix.miou)
+ (implements net_unix)
+ (libraries miou.unix network.miou network.unix))

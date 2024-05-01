@@ -1,0 +1,5 @@
+(library
+ (name net_unix_eio)
+ (public_name network.unix.eio)
+ (implements net_unix)
+ (libraries eio.unix network.eio network.unix))

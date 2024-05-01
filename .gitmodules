@@ -1,0 +1,6 @@
+[submodule "vendor/miou"]
+	path = vendor/miou
+	url = https://github.com/patricoferris/miou
+[submodule "vendor/eio"]
+	path = vendor/eio
+	url = https://github.com/patricoferris/eio
