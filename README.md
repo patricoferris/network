@@ -1,7 +1,7 @@
 network
 -------
 
-Sketch of an idea for a scheduler-agnostic networking library with structured concurrency.
+**Sketch** of an idea for a scheduler-agnostic networking library with structured concurrency.
 
 Very inspired by `Eio.Net` and `Miou_unix`.
 
